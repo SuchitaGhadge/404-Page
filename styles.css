@@ -40,6 +40,33 @@ body{
         "img note"
         "footer footer"
     } 
+
+    #main-img{
+        max-width: 600px !important;
+        max-height: 600px !important;
+    }
+
+    h1{
+        font-size: 64px !important;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    p{
+        font-size: 18px !important;
+        width: 50%;
+        padding: 5px;
+        margin-left:10px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        font-size: 18px !important;
+    }
+    
+    #username{
+        font-size: 18px !important;
+    }
 }
 
 
@@ -68,25 +95,30 @@ footer{
 }
 
 #main-img{
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 h1{
-    font-size: 64px;
+    font-size: 36px;
     padding: 5px;
     margin: 10px;
 }
 
 p{
-    font-size: 18px;
+    font-size: 14px;
     width: 50%;
     padding: 5px;
     margin-left:10px;
     margin-bottom: 20px;
 }
 
+footer{
+    font-size: 14px;
+}
+
 #username{
+    font-size: 14px;
     font-weight: bold;
     text-decoration: underline;
 }
